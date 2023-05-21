@@ -61,7 +61,7 @@ const Nav = () => {
                   type='button'
                   key={provider.name}
                   onClick={() => {
-                    signIn(provider.id);
+                    signIn('google');
                   }}
                   className='black_btn'
                 >
@@ -122,7 +122,7 @@ const Nav = () => {
                   type='button'
                   key={provider.name}
                   onClick={() => {
-                    signIn(provider.id);
+                    signIn('google');
                   }}
                   className='black_btn'
                 >
